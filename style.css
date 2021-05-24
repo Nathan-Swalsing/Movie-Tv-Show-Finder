@@ -1,0 +1,79 @@
+html {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding: .5rem;
+    background-color: #cc6d2e;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    border: none;
+    border-radius: 5px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: #f1b738;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+select {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    background-color: #3caea3;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #20639b;
+}
+
+input {
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+
+#selections {
+    background-color: rgb(250, 243, 243);
+    margin: auto;
+    width: 70%;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+img {
+    max-height: 100;
+    max-width: 50;
+    margin: 1rem;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: .25rem;
+    background-color: rgb(48, 47, 47);
+    color: wheat;
+    border-color: #cc6d2e;
+}
+
+td {
+    border: 2px solid;
+    padding: 5px;
+}
